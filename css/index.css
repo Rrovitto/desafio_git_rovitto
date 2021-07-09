@@ -1,0 +1,49 @@
+/*Index*/
+
+.intro {
+    width: auto;
+    height: auto;
+}
+
+.intro__main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+
+.intro__titulo {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(114, 70, 13);
+    background-color: #FFD8CC;
+    border: 1px solid #fff;
+
+}
+
+.productos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.articulo {
+    width: 400px;
+    height: auto;
+    margin: 15px;
+}
+
+
+.icono {
+    width: 350px;
+    height: 300px;
+    margin: 30px;
+}

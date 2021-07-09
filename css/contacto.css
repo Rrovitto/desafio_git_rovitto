@@ -1,0 +1,33 @@
+/*Contacto*/
+.contacto {
+    width: 60%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    border: black 3px solid;
+    margin: 10px auto;
+    background-color: #fff0ca;
+    padding: 10px;
+}
+
+.contacto__form {
+    display: flex;
+    flex-flow: nowrap column;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.contacto__titulo {
+    color: rgb(114, 70, 13);
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.contacto__mapa {
+    justify-self: center;
+    align-self: center;
+    width: auto;
+}
+
+

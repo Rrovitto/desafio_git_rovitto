@@ -1,0 +1,46 @@
+/*Quienes somos*/
+.nosotros {
+    width: 100%;
+    height: auto;
+}
+
+.nosotros__main {
+    display: grid;
+    grid-template-areas: 
+    "superior imagen"
+    "inferior inferior"
+    "tabla tabla";
+    grid-gap: 3rem;
+}
+
+.nosotros__imagen {
+    width: 100%;
+    height: auto;
+    grid-area: imagen;
+    
+}
+
+.nosotros__imagen img {
+    width: 100%;
+}
+
+.nosotros__superior {
+    grid-area: superior;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 30px;
+}
+
+.nosotros__inferior {
+    grid-area: inferior;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.nosotros__tabla {
+    grid-area: tabla;
+    border: 2px;
+    justify-self: center;
+    padding-bottom: 20px;
+}
+
+

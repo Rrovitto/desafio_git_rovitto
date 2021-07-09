@@ -1,0 +1,94 @@
+/*Compartidos por todas las páginas*/
+body {
+    background-color: #F6C6EA;
+}
+
+.header {
+    background-color: #FFD8CC;
+    height: 150px;
+    border-bottom: 2px solid #fff;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu ul {
+    display: flex;
+}
+
+.header__menu ul li {
+    display: flex;
+    padding-right: 30px;
+}
+
+.header__menu ul li a:hover {
+    color: black;
+    font-style: italic;
+    color: #c14bc58f;
+}
+
+.header__menu ul li a {
+    text-decoration: none;
+    color: rgb(114, 70, 13);
+    font-weight: bold;
+}
+
+.header__logo img {
+    width: 146px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.whatsapp p {
+    background: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__instagram {
+    width: 40px;
+    height: auto;
+    border-radius: 20%;
+    
+}
+
+.footer__facebook {
+    width: 40px;
+    height: auto;
+    border-radius: 20%;
+
+}
+
+.button {
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid ;
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #c14bc58f;
+    color: black;
+    font-style: italic;
+}
+
